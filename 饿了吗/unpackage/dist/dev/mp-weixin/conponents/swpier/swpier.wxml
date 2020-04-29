@@ -1,0 +1,1 @@
+<swiper class="swiper" indicator-dots autoplay interval="5000" circular indicator-color="black" indicator-active-color="#ffffff"><block wx:for="{{$root.l0}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item><image src="{{item.f0}}" alt="图片不存在"></image></swiper-item></block></swiper>

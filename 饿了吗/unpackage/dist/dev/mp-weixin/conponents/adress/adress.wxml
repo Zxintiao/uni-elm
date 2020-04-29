@@ -1,0 +1,1 @@
+<view class="indexTop"><label class="iconfont icon-dingwei _span" style="marginLeft:15px;color:#1296DB;"></label><text>{{address}}</text></view>

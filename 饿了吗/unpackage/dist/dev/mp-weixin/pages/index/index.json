@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "饿了吗",
+  "usingComponents": {
+    "my-swiper": "/conponents/swpier/swpier",
+    "good-swiper": "/conponents/goodSwiper/goodSwiper",
+    "my-adress": "/conponents/adress/adress",
+    "my-screen": "/conponents/Screen/Screen"
+  }
+}

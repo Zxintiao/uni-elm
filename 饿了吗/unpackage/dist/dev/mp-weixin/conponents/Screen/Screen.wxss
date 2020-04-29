@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.Screen .navBar.data-v-0e8f5d05 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.Screen .navBar ._li.data-v-0e8f5d05 {
+  margin: 0 30rpx;
+  height: 80rpx;
+}
+.Screen .navBar .active.data-v-0e8f5d05 {
+  color: #007AFF;
+  text-align: center;
+}
+.Screen .navBar .active .btnActive.data-v-0e8f5d05 {
+  display: inline-block;
+  background-color: #007AFF;
+  width: 60rpx;
+  height: 10rpx;
+  border-radius: 30rpx;
+}
+.Screen .navItem.data-v-0e8f5d05 {
+  margin: 30rpx 0 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 14px;
+}
+.Screen .navItem .navItem_left .icon-icon--1.data-v-0e8f5d05 {
+  position: absolute;
+  top: 4rpx;
+}
+.Screen .navItem .navItem_left > view.data-v-0e8f5d05 {
+  display: inline-block;
+  margin: 0 30rpx;
+  position: relative;
+}
+.Screen .navItem .navItem_left > view .Screen_goods_one.data-v-0e8f5d05 {
+  padding-left: 30rpx;
+  background-color: #FFFFFF;
+  position: absolute;
+  z-index: 4;
+  color: #424242;
+  width: 750rpx;
+  left: -30rpx;
+  top: 34rpx;
+}
+.Screen .navItem .navItem_left > view .Screen_goods_one .changIndex.data-v-0e8f5d05 {
+  color: #007AFF;
+}
+.Screen .navItem .navItem_left > view .Screen_goods_one view.data-v-0e8f5d05 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 20rpx 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.Screen .navItem .navItem_left > view .Screen_goods_two.data-v-0e8f5d05 {
+  position: absolute;
+  z-index: 3;
+  left: -30rpx;
+  width: 750rpx;
+  height: 1000rpx;
+  background-color: #000000;
+  opacity: 0.1;
+}
+.Screen .navItem .navItem_left > .ChangeActive.data-v-0e8f5d05 {
+  color: #007AFF;
+}
+.Screen .navItem_right.data-v-0e8f5d05 {
+  margin: 0 50rpx;
+}
+.Screen .content.data-v-0e8f5d05 {
+  margin: 10rpx 0;
+  font-size: 12px;
+}
+.Screen .content text.data-v-0e8f5d05 {
+  padding: 5rpx;
+  border-radius: 10rpx;
+  margin: 0 30rpx;
+  background-color: #e2e2e2;
+}
+
